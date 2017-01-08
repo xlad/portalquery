@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class ArrayOfSedinta implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSedinta implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param Sedinta[] $Sedinta
-     * @return \xlad\portalquery\ArrayOfSedinta
+     * @return \xlad\Portalquery\ArrayOfSedinta
      */
     public function setSedinta(array $Sedinta = null)
     {

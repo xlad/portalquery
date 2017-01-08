@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class DosarSedinta
 {
@@ -68,7 +68,7 @@ class DosarSedinta
 
     /**
      * @param string $complet
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setComplet($complet)
     {
@@ -94,7 +94,7 @@ class DosarSedinta
 
     /**
      * @param \DateTime $data
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setData(\DateTime $data)
     {
@@ -112,7 +112,7 @@ class DosarSedinta
 
     /**
      * @param string $ora
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setOra($ora)
     {
@@ -130,7 +130,7 @@ class DosarSedinta
 
     /**
      * @param string $solutie
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setSolutie($solutie)
     {
@@ -148,7 +148,7 @@ class DosarSedinta
 
     /**
      * @param string $solutieSumar
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setSolutieSumar($solutieSumar)
     {
@@ -174,7 +174,7 @@ class DosarSedinta
 
     /**
      * @param \DateTime $dataPronuntare
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setDataPronuntare(\DateTime $dataPronuntare = null)
     {
@@ -196,7 +196,7 @@ class DosarSedinta
 
     /**
      * @param DocumentSedinta $documentSedinta
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setDocumentSedinta($documentSedinta)
     {
@@ -214,7 +214,7 @@ class DosarSedinta
 
     /**
      * @param string $numarDocument
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setNumarDocument($numarDocument)
     {
@@ -240,7 +240,7 @@ class DosarSedinta
 
     /**
      * @param \DateTime $dataDocument
-     * @return \xlad\portalquery\DosarSedinta
+     * @return \xlad\Portalquery\DosarSedinta
      */
     public function setDataDocument(\DateTime $dataDocument = null)
     {

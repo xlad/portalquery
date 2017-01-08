@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class DosarParte
 {
@@ -31,7 +31,7 @@ class DosarParte
 
     /**
      * @param string $nume
-     * @return \xlad\portalquery\DosarParte
+     * @return \xlad\Portalquery\DosarParte
      */
     public function setNume($nume)
     {
@@ -49,7 +49,7 @@ class DosarParte
 
     /**
      * @param string $calitateParte
-     * @return \xlad\portalquery\DosarParte
+     * @return \xlad\Portalquery\DosarParte
      */
     public function setCalitateParte($calitateParte)
     {

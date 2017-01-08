@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class CautareDosare
 {
@@ -63,7 +63,7 @@ class CautareDosare
 
     /**
      * @param string $numarDosar
-     * @return \xlad\portalquery\CautareDosare
+     * @return \xlad\Portalquery\CautareDosare
      */
     public function setNumarDosar($numarDosar)
     {
@@ -81,7 +81,7 @@ class CautareDosare
 
     /**
      * @param string $obiectDosar
-     * @return \xlad\portalquery\CautareDosare
+     * @return \xlad\Portalquery\CautareDosare
      */
     public function setObiectDosar($obiectDosar)
     {
@@ -99,7 +99,7 @@ class CautareDosare
 
     /**
      * @param string $numeParte
-     * @return \xlad\portalquery\CautareDosare
+     * @return \xlad\Portalquery\CautareDosare
      */
     public function setNumeParte($numeParte)
     {
@@ -117,7 +117,7 @@ class CautareDosare
 
     /**
      * @param Institutie $institutie
-     * @return \xlad\portalquery\CautareDosare
+     * @return \xlad\Portalquery\CautareDosare
      */
     public function setInstitutie($institutie)
     {
@@ -143,7 +143,7 @@ class CautareDosare
 
     /**
      * @param \DateTime $dataStart
-     * @return \xlad\portalquery\CautareDosare
+     * @return \xlad\Portalquery\CautareDosare
      */
     public function setDataStart(\DateTime $dataStart)
     {
@@ -169,7 +169,7 @@ class CautareDosare
 
     /**
      * @param \DateTime $dataStop
-     * @return \xlad\portalquery\CautareDosare
+     * @return \xlad\Portalquery\CautareDosare
      */
     public function setDataStop(\DateTime $dataStop)
     {

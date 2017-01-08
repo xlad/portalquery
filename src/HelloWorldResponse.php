@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class HelloWorldResponse
 {
@@ -28,7 +28,7 @@ class HelloWorldResponse
 
     /**
      * @param string $HelloWorldResult
-     * @return \xlad\portalquery\HelloWorldResponse
+     * @return \xlad\Portalquery\HelloWorldResponse
      */
     public function setHelloWorldResult($HelloWorldResult)
     {

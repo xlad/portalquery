@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class CautareDosare2
 {
@@ -77,7 +77,7 @@ class CautareDosare2
 
     /**
      * @param string $numarDosar
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setNumarDosar($numarDosar)
     {
@@ -95,7 +95,7 @@ class CautareDosare2
 
     /**
      * @param string $obiectDosar
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setObiectDosar($obiectDosar)
     {
@@ -113,7 +113,7 @@ class CautareDosare2
 
     /**
      * @param string $numeParte
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setNumeParte($numeParte)
     {
@@ -131,7 +131,7 @@ class CautareDosare2
 
     /**
      * @param Institutie $institutie
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setInstitutie($institutie)
     {
@@ -157,7 +157,7 @@ class CautareDosare2
 
     /**
      * @param \DateTime $dataStart
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setDataStart(\DateTime $dataStart)
     {
@@ -183,7 +183,7 @@ class CautareDosare2
 
     /**
      * @param \DateTime $dataStop
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setDataStop(\DateTime $dataStop)
     {
@@ -209,7 +209,7 @@ class CautareDosare2
 
     /**
      * @param \DateTime $dataUltimaModificareStart
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setDataUltimaModificareStart(\DateTime $dataUltimaModificareStart)
     {
@@ -235,7 +235,7 @@ class CautareDosare2
 
     /**
      * @param \DateTime $dataUltimaModificareStop
-     * @return \xlad\portalquery\CautareDosare2
+     * @return \xlad\Portalquery\CautareDosare2
      */
     public function setDataUltimaModificareStop(\DateTime $dataUltimaModificareStop)
     {

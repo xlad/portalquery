@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class Query extends \SoapClient
 {
@@ -9,26 +9,26 @@ class Query extends \SoapClient
      * @var array $classmap The defined classes
      */
     private static $classmap = array (
-      'HelloWorld' => 'xlad\\portalquery\\HelloWorld',
-      'HelloWorldResponse' => 'xlad\\portalquery\\HelloWorldResponse',
-      'CautareDosare' => 'xlad\\portalquery\\CautareDosare',
-      'CautareDosareResponse' => 'xlad\\portalquery\\CautareDosareResponse',
-      'ArrayOfDosar' => 'xlad\\portalquery\\ArrayOfDosar',
-      'Dosar' => 'xlad\\portalquery\\Dosar',
-      'ArrayOfDosarParte' => 'xlad\\portalquery\\ArrayOfDosarParte',
-      'DosarParte' => 'xlad\\portalquery\\DosarParte',
-      'ArrayOfDosarSedinta' => 'xlad\\portalquery\\ArrayOfDosarSedinta',
-      'DosarSedinta' => 'xlad\\portalquery\\DosarSedinta',
-      'ArrayOfDosarCaleAtac' => 'xlad\\portalquery\\ArrayOfDosarCaleAtac',
-      'DosarCaleAtac' => 'xlad\\portalquery\\DosarCaleAtac',
-      'CautareDosare2' => 'xlad\\portalquery\\CautareDosare2',
-      'CautareDosare2Response' => 'xlad\\portalquery\\CautareDosare2Response',
-      'CautareSedinte' => 'xlad\\portalquery\\CautareSedinte',
-      'CautareSedinteResponse' => 'xlad\\portalquery\\CautareSedinteResponse',
-      'ArrayOfSedinta' => 'xlad\\portalquery\\ArrayOfSedinta',
-      'Sedinta' => 'xlad\\portalquery\\Sedinta',
-      'ArrayOfSedintaDosar' => 'xlad\\portalquery\\ArrayOfSedintaDosar',
-      'SedintaDosar' => 'xlad\\portalquery\\SedintaDosar',
+      'HelloWorld' => 'xlad\\Portalquery\\HelloWorld',
+      'HelloWorldResponse' => 'xlad\\Portalquery\\HelloWorldResponse',
+      'CautareDosare' => 'xlad\\Portalquery\\CautareDosare',
+      'CautareDosareResponse' => 'xlad\\Portalquery\\CautareDosareResponse',
+      'ArrayOfDosar' => 'xlad\\Portalquery\\ArrayOfDosar',
+      'Dosar' => 'xlad\\Portalquery\\Dosar',
+      'ArrayOfDosarParte' => 'xlad\\Portalquery\\ArrayOfDosarParte',
+      'DosarParte' => 'xlad\\Portalquery\\DosarParte',
+      'ArrayOfDosarSedinta' => 'xlad\\Portalquery\\ArrayOfDosarSedinta',
+      'DosarSedinta' => 'xlad\\Portalquery\\DosarSedinta',
+      'ArrayOfDosarCaleAtac' => 'xlad\\Portalquery\\ArrayOfDosarCaleAtac',
+      'DosarCaleAtac' => 'xlad\\Portalquery\\DosarCaleAtac',
+      'CautareDosare2' => 'xlad\\Portalquery\\CautareDosare2',
+      'CautareDosare2Response' => 'xlad\\Portalquery\\CautareDosare2Response',
+      'CautareSedinte' => 'xlad\\Portalquery\\CautareSedinte',
+      'CautareSedinteResponse' => 'xlad\\Portalquery\\CautareSedinteResponse',
+      'ArrayOfSedinta' => 'xlad\\Portalquery\\ArrayOfSedinta',
+      'Sedinta' => 'xlad\\Portalquery\\Sedinta',
+      'ArrayOfSedintaDosar' => 'xlad\\Portalquery\\ArrayOfSedintaDosar',
+      'SedintaDosar' => 'xlad\\Portalquery\\SedintaDosar',
     );
 
     /**

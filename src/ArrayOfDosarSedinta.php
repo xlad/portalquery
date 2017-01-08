@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class ArrayOfDosarSedinta implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfDosarSedinta implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param DosarSedinta[] $DosarSedinta
-     * @return \xlad\portalquery\ArrayOfDosarSedinta
+     * @return \xlad\Portalquery\ArrayOfDosarSedinta
      */
     public function setDosarSedinta(array $DosarSedinta = null)
     {

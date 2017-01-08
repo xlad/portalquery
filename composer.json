@@ -5,7 +5,7 @@
 		"wsdl2phpgenerator/wsdl2phpgenerator": "3.x"
     },
     "type": "library",
-    "version": "0.0.000",
+    "version": "0.0.005",
     "authors": [
         {
             "name": "Vlad-Ciprian Bozesan",
@@ -25,7 +25,7 @@
 		    "src/autoload.php"
 		],
 	    "psr-4": {
-	        "xlad\\portalquery\\": "src/"
+	        "xlad\\Portalquery\\": "src/"
 	    }
     }
 }

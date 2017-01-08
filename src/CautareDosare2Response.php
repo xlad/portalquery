@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class CautareDosare2Response
 {
@@ -28,7 +28,7 @@ class CautareDosare2Response
 
     /**
      * @param ArrayOfDosar $CautareDosare2Result
-     * @return \xlad\portalquery\CautareDosare2Response
+     * @return \xlad\Portalquery\CautareDosare2Response
      */
     public function setCautareDosare2Result($CautareDosare2Result)
     {

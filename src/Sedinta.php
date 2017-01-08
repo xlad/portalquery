@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class Sedinta
 {
@@ -48,7 +48,7 @@ class Sedinta
 
     /**
      * @param string $departament
-     * @return \xlad\portalquery\Sedinta
+     * @return \xlad\Portalquery\Sedinta
      */
     public function setDepartament($departament)
     {
@@ -66,7 +66,7 @@ class Sedinta
 
     /**
      * @param string $complet
-     * @return \xlad\portalquery\Sedinta
+     * @return \xlad\Portalquery\Sedinta
      */
     public function setComplet($complet)
     {
@@ -92,7 +92,7 @@ class Sedinta
 
     /**
      * @param \DateTime $data
-     * @return \xlad\portalquery\Sedinta
+     * @return \xlad\Portalquery\Sedinta
      */
     public function setData(\DateTime $data)
     {
@@ -110,7 +110,7 @@ class Sedinta
 
     /**
      * @param string $ora
-     * @return \xlad\portalquery\Sedinta
+     * @return \xlad\Portalquery\Sedinta
      */
     public function setOra($ora)
     {
@@ -128,7 +128,7 @@ class Sedinta
 
     /**
      * @param ArrayOfSedintaDosar $dosare
-     * @return \xlad\portalquery\Sedinta
+     * @return \xlad\Portalquery\Sedinta
      */
     public function setDosare($dosare)
     {

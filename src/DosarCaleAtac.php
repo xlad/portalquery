@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class DosarCaleAtac
 {
@@ -44,7 +44,7 @@ class DosarCaleAtac
 
     /**
      * @param \DateTime $dataDeclarare
-     * @return \xlad\portalquery\DosarCaleAtac
+     * @return \xlad\Portalquery\DosarCaleAtac
      */
     public function setDataDeclarare(\DateTime $dataDeclarare = null)
     {
@@ -66,7 +66,7 @@ class DosarCaleAtac
 
     /**
      * @param string $parteDeclaratoare
-     * @return \xlad\portalquery\DosarCaleAtac
+     * @return \xlad\Portalquery\DosarCaleAtac
      */
     public function setParteDeclaratoare($parteDeclaratoare)
     {
@@ -84,7 +84,7 @@ class DosarCaleAtac
 
     /**
      * @param string $tipCaleAtac
-     * @return \xlad\portalquery\DosarCaleAtac
+     * @return \xlad\Portalquery\DosarCaleAtac
      */
     public function setTipCaleAtac($tipCaleAtac)
     {

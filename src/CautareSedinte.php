@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class CautareSedinte
 {
@@ -43,7 +43,7 @@ class CautareSedinte
 
     /**
      * @param \DateTime $dataSedinta
-     * @return \xlad\portalquery\CautareSedinte
+     * @return \xlad\Portalquery\CautareSedinte
      */
     public function setDataSedinta(\DateTime $dataSedinta)
     {
@@ -61,7 +61,7 @@ class CautareSedinte
 
     /**
      * @param Institutie $institutie
-     * @return \xlad\portalquery\CautareSedinte
+     * @return \xlad\Portalquery\CautareSedinte
      */
     public function setInstitutie($institutie)
     {

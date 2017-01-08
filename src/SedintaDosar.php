@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class SedintaDosar
 {
@@ -63,7 +63,7 @@ class SedintaDosar
 
     /**
      * @param string $numar
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setNumar($numar)
     {
@@ -81,7 +81,7 @@ class SedintaDosar
 
     /**
      * @param string $numar_vechi
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setNumar_vechi($numar_vechi)
     {
@@ -107,7 +107,7 @@ class SedintaDosar
 
     /**
      * @param \DateTime $data
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setData(\DateTime $data)
     {
@@ -125,7 +125,7 @@ class SedintaDosar
 
     /**
      * @param string $ora
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setOra($ora)
     {
@@ -143,7 +143,7 @@ class SedintaDosar
 
     /**
      * @param CategorieCaz $categorieCaz
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setCategorieCaz($categorieCaz)
     {
@@ -161,7 +161,7 @@ class SedintaDosar
 
     /**
      * @param StadiuProcesual $stadiuProcesual
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setStadiuProcesual($stadiuProcesual)
     {
@@ -179,7 +179,7 @@ class SedintaDosar
 
     /**
      * @param string $categorieCazNume
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setCategorieCazNume($categorieCazNume)
     {
@@ -197,7 +197,7 @@ class SedintaDosar
 
     /**
      * @param string $stadiuProcesualNume
-     * @return \xlad\portalquery\SedintaDosar
+     * @return \xlad\Portalquery\SedintaDosar
      */
     public function setStadiuProcesualNume($stadiuProcesualNume)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class CautareSedinteResponse
 {
@@ -28,7 +28,7 @@ class CautareSedinteResponse
 
     /**
      * @param ArrayOfSedinta $CautareSedinteResult
-     * @return \xlad\portalquery\CautareSedinteResponse
+     * @return \xlad\Portalquery\CautareSedinteResponse
      */
     public function setCautareSedinteResult($CautareSedinteResult)
     {

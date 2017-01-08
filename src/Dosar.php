@@ -1,6 +1,6 @@
 <?php
 
-namespace xlad\portalquery;
+namespace xlad\Portalquery;
 
 class Dosar
 {
@@ -97,7 +97,7 @@ class Dosar
 
     /**
      * @param ArrayOfDosarParte $parti
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setParti($parti)
     {
@@ -115,7 +115,7 @@ class Dosar
 
     /**
      * @param ArrayOfDosarSedinta $sedinte
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setSedinte($sedinte)
     {
@@ -133,7 +133,7 @@ class Dosar
 
     /**
      * @param ArrayOfDosarCaleAtac $caiAtac
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setCaiAtac($caiAtac)
     {
@@ -151,7 +151,7 @@ class Dosar
 
     /**
      * @param string $numar
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setNumar($numar)
     {
@@ -169,7 +169,7 @@ class Dosar
 
     /**
      * @param string $numarVechi
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setNumarVechi($numarVechi)
     {
@@ -195,7 +195,7 @@ class Dosar
 
     /**
      * @param \DateTime $data
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setData(\DateTime $data)
     {
@@ -213,7 +213,7 @@ class Dosar
 
     /**
      * @param Institutie $institutie
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setInstitutie($institutie)
     {
@@ -231,7 +231,7 @@ class Dosar
 
     /**
      * @param string $departament
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setDepartament($departament)
     {
@@ -249,7 +249,7 @@ class Dosar
 
     /**
      * @param CategorieCaz $categorieCaz
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setCategorieCaz($categorieCaz)
     {
@@ -267,7 +267,7 @@ class Dosar
 
     /**
      * @param StadiuProcesual $stadiuProcesual
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setStadiuProcesual($stadiuProcesual)
     {
@@ -285,7 +285,7 @@ class Dosar
 
     /**
      * @param string $obiect
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setObiect($obiect)
     {
@@ -311,7 +311,7 @@ class Dosar
 
     /**
      * @param \DateTime $dataModificare
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setDataModificare(\DateTime $dataModificare)
     {
@@ -329,7 +329,7 @@ class Dosar
 
     /**
      * @param string $categorieCazNume
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setCategorieCazNume($categorieCazNume)
     {
@@ -347,7 +347,7 @@ class Dosar
 
     /**
      * @param string $stadiuProcesualNume
-     * @return \xlad\portalquery\Dosar
+     * @return \xlad\Portalquery\Dosar
      */
     public function setStadiuProcesualNume($stadiuProcesualNume)
     {
