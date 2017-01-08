@@ -1,0 +1,31 @@
+{
+    "name": "xlad/portalquery",
+    "description": "wsdl2phpgenerator PHP generated classes.",
+    "require": {
+		"wsdl2phpgenerator/wsdl2phpgenerator": "3.x"
+    },
+    "type": "library",
+    "version": "0.0.000",
+    "authors": [
+        {
+            "name": "Vlad-Ciprian Bozesan",
+            "email": "xlad@mail.com",
+            "homepage": "http://xlad.ro",
+            "role": "Author"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/portal.just.ro/util.git"
+        }
+    ],
+    "autoload": {
+        "files": [
+		    "src/autoload.php"
+		],
+	    "psr-4": {
+	        "xlad\\portalquery\\": "src/"
+	    }
+    }
+}

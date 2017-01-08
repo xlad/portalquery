@@ -1,1 +1,1 @@
-# portalquery
+# portal.just.ro
